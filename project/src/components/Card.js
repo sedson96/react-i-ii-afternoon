@@ -33,7 +33,7 @@ class Card extends Component {
                     </ol>
                 </div>
             </div>
-            <h4>{user.id}/{this.state.data.length}</h4>
+            <h4>{this.props.id + 1}/{this.state.data.length}</h4>
         </section>
         )
     }
