@@ -1,18 +1,17 @@
 import React, {Component} from "react";
 
-
 class Previous extends Component {
-    constructor() {
-        super()
-        this.handleChange = this.handleChange.bind(this)   
+    constructor(props) {
+        super(props)
+        this.handleClick = this.handleClick.bind(this)   
     }
-    handleChange() {
+    handleClick() {
         this.props.previous()
     }
     
     render() {
         return (
-                <h3 onClick={this.handleChange}> &lt; Previous</h3>
+                <h3 onClick={this.handleClick}> &lt;Previous</h3>
         )
     }
 }

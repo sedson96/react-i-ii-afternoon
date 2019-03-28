@@ -56,7 +56,7 @@ class App extends Component {
         <main className="App-main">
           <Card id={this.state.id}/>
           <section className="buttons">
-            <Previous previ ous={this.previous}/>
+            <Previous previous={this.previous}/>
             <Add add={this.addForm} show={this.state.showAdd}/>
             <Delete id={this.state.id} previous={this.previous}/>
             <Next next={this.next}/>
