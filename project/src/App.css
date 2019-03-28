@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  width: 100vw;
+  height: 15vh;
+  background: #54A4D5;
+  display: flex;
+}
+h1{
+  margin: 0;
+}
+.App-main {
+  background-color: #282c34;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-section {
+  background: #EBEBEB;
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding-left: 7%;
+  padding-right: 2%;
+  color: black
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.about {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 4% 0
+}
+.movie {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 4% 0
+}
+h2 {
+  border-bottom: 2px solid #54A4D5
+}
+h1 {
+  font-size: .7em;
+  font-weight: 400;
+  margin: 2px
+}
+h3 {
+  cursor: pointer;
+}
+p {
+  font-size: .7em
+}
+li {
+  text-align: left;
+  font-size: .8em
+}
+h5 {
+  font-size: 2em;
+  margin-left: 5%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 89vw
+}
+button {
+  background-color: #54A4D5;
+  font: 1em arial ;
+  padding : 5px;
+  color: white;
+  border-radius: 150px;
+  width: 5em;
+  margin: 50px auto;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(250, 250, 250);
+  color: black;
+  border: 1px solid #54A4D5;
+  transition-duration: 0.4s;
+
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%
+}
+input {
+  width: 50vw;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #424249;
+}
